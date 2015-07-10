@@ -12,10 +12,6 @@ And then execute:
 
     $ bundle install
 
-Or install it yourself as:
-
-    $ gem install sul_styles
-
 Import the SulStyles in your `app/assets/stylesheets/application.scss`.
 
     @import 'sul-styles'
