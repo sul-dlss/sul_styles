@@ -1,4 +1,4 @@
-# SulStyles
+# SUL Styles
 
 ## Installation
 
@@ -12,7 +12,7 @@ And then execute:
 
     $ bundle install
 
-Import the SulStyles in your `app/assets/stylesheets/application.scss`.
+Import the SUL Styles in your `app/assets/stylesheets/application.scss`.
 
     @import 'sul-styles'
 
