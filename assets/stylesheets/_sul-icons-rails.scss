@@ -1,0 +1,55 @@
+//
+// Icon Font: sul-icons
+//
+
+@font-face {
+  font-family: "sul-icons";
+  src: font-url("sul-icons.eot");
+  src: font-url("sul-icons.eot?#iefix") format("embedded-opentype"),
+       font-url("sul-icons.woff") format("woff"),
+       font-url("sul-icons.ttf") format("truetype"),
+       font-url("sul-icons.svg#sul-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "sul-icons";
+    src: font-url("sul-icons.svg#sul-icons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.sul-i-download-3:before,
+.sul-i-expand-diagonal-2:before,
+.sul-i-file-new-1:before,
+.sul-i-files-2:before,
+.sul-i-infomation-circle:before,
+.sul-i-link-3:before,
+.sul-i-share:before,
+.sul-i-view-module-1:before {
+  display: inline-block;
+  font-family: "sul-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.sul-i-download-3:before { content: "\f106"; }
+.sul-i-expand-diagonal-2:before { content: "\f103"; }
+.sul-i-file-new-1:before { content: "\f100"; }
+.sul-i-files-2:before { content: "\f101"; }
+.sul-i-infomation-circle:before { content: "\f104"; }
+.sul-i-link-3:before { content: "\f107"; }
+.sul-i-share:before { content: "\f105"; }
+.sul-i-view-module-1:before { content: "\f102"; }
