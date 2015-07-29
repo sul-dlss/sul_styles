@@ -16,8 +16,22 @@ Import the SUL Styles in your `app/assets/stylesheets/application.scss`.
 
     @import 'sul-styles';
 
+## Styles supported
 
-## Adding to the icon font
+### SCSS Variables for SU Identity
+
+Stanford University identity colors added as SCSS variables
+
+### Common Date Formats
+
+Common date formats that should be used in a variety of contexts
+
+Date Format | Example
+----------- | -------
+`'%d-%b-%Y'` | 29-Jul-2015
+
+
+## Contributing to the icon font
 
 You can add icons to the icon font by doing the following:
 
