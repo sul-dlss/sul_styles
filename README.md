@@ -1,5 +1,7 @@
 # SUL Styles
 
+[![Build Status](https://travis-ci.org/sul-dlss/sul_styles.svg?branch=master)](https://travis-ci.org/sul-dlss/sul_styles)
+
 ## Installation
 
 Add this line to your application's Gemfile:
