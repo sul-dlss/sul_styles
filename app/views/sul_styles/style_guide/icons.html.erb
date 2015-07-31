@@ -1,1 +1,19 @@
-icons
+Icons are created using the Streamline icon sets. For maintainability, icons keep their Streamline filename but aliases can also be created for ease of use.
+<% @icons.each do |icon_group| %>
+  <h3><%= icon_group[:title] %></h3>
+  <div class='icon-container'>
+    <% icon_group[:icons].each do |icon| %>
+      <div class='icon-example-container'>
+        <%= content_tag(:div, '', class: "#{icon[0]} icon-example") %>
+        <div class='icon-example-name'>
+          <%= icon[0] %>
+        </div>
+        <% if icon[1].present? %>
+          <div class='icon-example-character-code <%= icon[0]%>-char'>
+            <%= icon[1].gsub('";', '') %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
