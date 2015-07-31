@@ -1,0 +1,30 @@
+/*
+  Styles for SulStyles Styleguide
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+}
+
+.color-sample-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 12px;
+}
+
+.color-sample {
+  flex: 0 1 auto;
+  margin: 10px;
+  text-align: center;
+  width: 180px;
+}
+
+.color-swatch {
+  height: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 80px;
+}

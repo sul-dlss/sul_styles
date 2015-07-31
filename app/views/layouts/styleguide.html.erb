@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stanford University Libraries - Style Guide</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+</head>
+<body>
+<h1>Stanford University Libraries - Style Guide</h1>
+<div class='navigation'>
+  <ul>
+    <li>
+      <%= link_to 'Colors', styleguide_colors_path %>
+    </li>
+    <li>
+      <%= link_to 'Icons', styleguide_icons_path %>
+    </li>
+  </ul>
+</div>
+<%= yield %>
+
+</body>
+</html>

@@ -9,7 +9,7 @@ class TestAppGenerator < Rails::Generators::Base
 
   def add_application_scss
     create_file 'app/assets/stylesheets/application.scss' do
-      '@import \'sul-styles\';'
+      '@import \'sul-styles\'; @import \'styleguide/styleguide\';'
     end
   end
 
