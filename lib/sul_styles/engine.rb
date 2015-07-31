@@ -4,7 +4,7 @@ module SulStyles
 
     config.after_initialize do |app|
       unless Rails.env.production?
-        app.routes.prepend { mount SulStyles::Engine => '/' }
+        app.routes.prepend { mount SulStyles::Engine => '/styleguide' }
       end
     end
   end
