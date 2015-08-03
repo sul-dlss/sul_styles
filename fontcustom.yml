@@ -50,8 +50,8 @@ input:
 #  templates: my/templates
 
 output:
- fonts: assets/fonts
- css: assets/stylesheets
+ fonts: app/assets/fonts
+ css: app/assets/stylesheets
  preview: docs/styleguide
 #  my-custom-template.yml: path/to/template/output
 

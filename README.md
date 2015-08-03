@@ -1,5 +1,7 @@
 # SUL Styles
 
+[![Build Status](https://travis-ci.org/sul-dlss/sul_styles.svg?branch=master)](https://travis-ci.org/sul-dlss/sul_styles)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -16,8 +18,26 @@ Import the SUL Styles in your `app/assets/stylesheets/application.scss`.
 
     @import 'sul-styles';
 
+## See the styles in your browser
 
-## Adding to the icon font
+After including the gem in your Rails project, you will be able to access the styleguide within your application at http://127.0.0.1:3000/styleguide. These routes are only available in the development and test environments.
+
+## Styles supported
+
+### SCSS Variables for SU Identity
+
+Stanford University identity colors added as SCSS variables
+
+### Common Date Formats
+
+Common date formats that should be used in a variety of contexts
+
+Date Format | Example
+----------- | -------
+`'%d-%b-%Y'` | 29-Jul-2015
+
+
+## Contributing to the icon font
 
 You can add icons to the icon font by doing the following:
 

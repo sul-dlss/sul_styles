@@ -1,0 +1,18 @@
+<h2>Colors</h2>
+<% @colors.each do |color_group| %>
+  <h3><%= color_group[:title] %></h3>
+  <div class='color-sample-container'>
+    <% color_group[:colors].each do |color| %>
+      <div class='color-sample'>
+        <div class='color-swatch' style='background-color: <%= color[1] %>'>
+        </div>
+        <div class='color-variable-name'>
+          <%= color[0] %>
+        </div>
+        <div class='color-name'>
+          <%= color[1] %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>

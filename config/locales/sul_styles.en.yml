@@ -1,0 +1,4 @@
+en:
+  date:
+    formats:
+      day_mon_year: '%d-%b-%Y'
