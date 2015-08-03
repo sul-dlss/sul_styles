@@ -18,6 +18,10 @@ Import the SUL Styles in your `app/assets/stylesheets/application.scss`.
 
     @import 'sul-styles';
 
+## See the styles in your browser
+
+After including the gem in your Rails project, you will be able to access the styleguide within your application at http://127.0.0.1:3000/styleguide. These routes are only available in the development and test environments.
+
 ## Styles supported
 
 ### SCSS Variables for SU Identity

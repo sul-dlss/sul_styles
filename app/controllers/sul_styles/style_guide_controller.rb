@@ -3,6 +3,9 @@ module SulStyles
 
     layout 'styleguide'
 
+    def index
+    end
+
     def icons
       @icons = []
       @icons << parse_icons("#{SulStyles::Engine.root}/app/assets/stylesheets/_sul-icons-rails.scss")
