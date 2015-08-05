@@ -5,19 +5,19 @@
 }
 
 .sul-i-expand {
-  @extend .sul-i-expand-diagonal-2;
+  @extend .sul-i-expand-1
 }
 
 .sul-i-fullscreen {
-  @extend .sul-i-expand-diagonal-2;
+  @extend .sul-i-expand-1;
 }
 
 .sul-i-singlepage {
-  @extend .sul-i-file-new-1;
+  @extend .sul-i-layout-none;
 }
 
 .sul-i-twopage {
-  @extend .sul-i-files-2;
+  @extend .sul-i-layout-4;
 }
 
 .sul-i-info {
