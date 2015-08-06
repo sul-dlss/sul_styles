@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "b4c6d9d72af7c4d12d50e88616cf9b4f93466f4da4c626fc396ba545c65f526a",
-    "current": "b4c6d9d72af7c4d12d50e88616cf9b4f93466f4da4c626fc396ba545c65f526a"
+    "previous": "c37b74c087440059f94d930be466fb0cf544ccf69e2da98732a47d3fe372ee46",
+    "current": "c37b74c087440059f94d930be466fb0cf544ccf69e2da98732a47d3fe372ee46"
   },
   "fonts": [
     "app/assets/fonts/sul-icons.ttf",
@@ -10,37 +10,201 @@
     "app/assets/fonts/sul-icons.eot"
   ],
   "glyphs": {
+    "arrow-left-3": {
+      "codepoint": 61704,
+      "source": "icon_svgs/arrow-left-3.svg"
+    },
+    "arrow-left-8": {
+      "codepoint": 61705,
+      "source": "icon_svgs/arrow-left-8.svg"
+    },
+    "arrow-right-3": {
+      "codepoint": 61706,
+      "source": "icon_svgs/arrow-right-3.svg"
+    },
+    "arrow-right-8": {
+      "codepoint": 61707,
+      "source": "icon_svgs/arrow-right-8.svg"
+    },
+    "book-open-4": {
+      "codepoint": 61708,
+      "source": "icon_svgs/book-open-4.svg"
+    },
+    "bookmark-all-1": {
+      "codepoint": 61709,
+      "source": "icon_svgs/bookmark-all-1.svg"
+    },
+    "books-library": {
+      "codepoint": 61710,
+      "source": "icon_svgs/books-library.svg"
+    },
+    "box-1": {
+      "codepoint": 61711,
+      "source": "icon_svgs/box-1.svg"
+    },
+    "bubble-chat-2": {
+      "codepoint": 61712,
+      "source": "icon_svgs/bubble-chat-2.svg"
+    },
+    "camera-film-1": {
+      "codepoint": 61713,
+      "source": "icon_svgs/camera-film-1.svg"
+    },
+    "check-box-1": {
+      "codepoint": 61714,
+      "source": "icon_svgs/check-box-1.svg"
+    },
+    "cube": {
+      "codepoint": 61715,
+      "source": "icon_svgs/cube.svg"
+    },
     "download-3": {
       "codepoint": 61702,
       "source": "icon_svgs/download-3.svg"
     },
-    "expand-diagonal-2": {
-      "codepoint": 61699,
-      "source": "icon_svgs/expand-diagonal-2.svg"
+    "email": {
+      "codepoint": 61716,
+      "source": "icon_svgs/email.svg"
     },
-    "file-new-1": {
-      "codepoint": 61696,
-      "source": "icon_svgs/file-new-1.svg"
+    "expand-1": {
+      "codepoint": 61717,
+      "source": "icon_svgs/expand-1.svg"
     },
-    "files-2": {
-      "codepoint": 61697,
-      "source": "icon_svgs/files-2.svg"
+    "file-music-1": {
+      "codepoint": 61718,
+      "source": "icon_svgs/file-music-1.svg"
+    },
+    "graph-bar-2": {
+      "codepoint": 61719,
+      "source": "icon_svgs/graph-bar-2.svg"
     },
     "infomation-circle": {
       "codepoint": 61700,
       "source": "icon_svgs/infomation-circle.svg"
     },
+    "key-2": {
+      "codepoint": 61720,
+      "source": "icon_svgs/key-2.svg"
+    },
+    "layout-4": {
+      "codepoint": 61721,
+      "source": "icon_svgs/layout-4.svg"
+    },
+    "layout-none": {
+      "codepoint": 61722,
+      "source": "icon_svgs/layout-none.svg"
+    },
     "link-3": {
       "codepoint": 61703,
       "source": "icon_svgs/link-3.svg"
+    },
+    "list-bullets-1": {
+      "codepoint": 61723,
+      "source": "icon_svgs/list-bullets-1.svg"
+    },
+    "map-pin-1": {
+      "codepoint": 61724,
+      "source": "icon_svgs/map-pin-1.svg"
+    },
+    "microphone-3": {
+      "codepoint": 61725,
+      "source": "icon_svgs/microphone-3.svg"
+    },
+    "mobile-phone-2": {
+      "codepoint": 61726,
+      "source": "icon_svgs/mobile-phone-2.svg"
+    },
+    "mouse": {
+      "codepoint": 61727,
+      "source": "icon_svgs/mouse.svg"
+    },
+    "navigation-drawer-1": {
+      "codepoint": 61728,
+      "source": "icon_svgs/navigation-drawer-1.svg"
+    },
+    "navigation-drawer-2": {
+      "codepoint": 61729,
+      "source": "icon_svgs/navigation-drawer-2.svg"
+    },
+    "navigation-left-2": {
+      "codepoint": 61730,
+      "source": "icon_svgs/navigation-left-2.svg"
+    },
+    "network-web": {
+      "codepoint": 61731,
+      "source": "icon_svgs/network-web.svg"
+    },
+    "news-article": {
+      "codepoint": 61732,
+      "source": "icon_svgs/news-article.svg"
+    },
+    "newspaper": {
+      "codepoint": 61733,
+      "source": "icon_svgs/newspaper.svg"
+    },
+    "notebook": {
+      "codepoint": 61734,
+      "source": "icon_svgs/notebook.svg"
+    },
+    "person-1": {
+      "codepoint": 61735,
+      "source": "icon_svgs/person-1.svg"
+    },
+    "person-information-1": {
+      "codepoint": 61736,
+      "source": "icon_svgs/person-information-1.svg"
+    },
+    "picture-2": {
+      "codepoint": 61737,
+      "source": "icon_svgs/picture-2.svg"
+    },
+    "plug-1": {
+      "codepoint": 61738,
+      "source": "icon_svgs/plug-1.svg"
+    },
+    "print-text": {
+      "codepoint": 61739,
+      "source": "icon_svgs/print-text.svg"
+    },
+    "quote-1": {
+      "codepoint": 61740,
+      "source": "icon_svgs/quote-1.svg"
+    },
+    "search": {
+      "codepoint": 61741,
+      "source": "icon_svgs/search.svg"
     },
     "share": {
       "codepoint": 61701,
       "source": "icon_svgs/share.svg"
     },
+    "transfer-3": {
+      "codepoint": 61742,
+      "source": "icon_svgs/transfer-3.svg"
+    },
+    "turntable": {
+      "codepoint": 61743,
+      "source": "icon_svgs/turntable.svg"
+    },
+    "view-headline": {
+      "codepoint": 61744,
+      "source": "icon_svgs/view-headline.svg"
+    },
+    "view-list": {
+      "codepoint": 61745,
+      "source": "icon_svgs/view-list.svg"
+    },
     "view-module-1": {
       "codepoint": 61698,
       "source": "icon_svgs/view-module-1.svg"
+    },
+    "window-search": {
+      "codepoint": 61746,
+      "source": "icon_svgs/window-search.svg"
+    },
+    "zoom-in": {
+      "codepoint": 61747,
+      "source": "icon_svgs/zoom-in.svg"
     }
   },
   "options": {
@@ -66,6 +230,7 @@
     },
     "preprocessor_path": "",
     "quiet": false,
+    "skip_first": false,
     "templates": [
       "scss-rails",
       "scss",
