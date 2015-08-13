@@ -3,6 +3,9 @@
 */
 @import '../sul-styles';
 
+@import '../sul-icons-rails';
+@import '../sul-icons-aliases';
+
 @mixin flexcontainer {
   display: flex;
   flex-flow: row wrap;  
