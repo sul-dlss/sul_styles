@@ -22,6 +22,14 @@ Import the SUL Styles in your `app/assets/stylesheets/application.scss`.
 
 After including the gem in your Rails project, you will be able to access the styleguide within your application at http://127.0.0.1:3000/styleguide. These routes are only available in the development and test environments.
 
+
+## Check your local application for SUL Styles provided colors
+
+```
+$ bundle exec rake sul_styles:check_local_colors
+The color #8c1515 is present in app/assets/stylesheets/sul-variables.scss. This color is provided by SUL Styles under the variable $color-cardinal-red.
+```
+
 ## Styles supported
 
 ### SCSS Variables for SU Identity
@@ -35,7 +43,6 @@ Common date formats that should be used in a variety of contexts
 Date Format | Example
 ----------- | -------
 `'%d-%b-%Y'` | 29-Jul-2015
-
 
 ## Contributing to the icon font
 
@@ -62,4 +69,3 @@ Don't change the svg's filename (it should be the same as the source it came fro
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/sul-dlss/sul_styles.
-
