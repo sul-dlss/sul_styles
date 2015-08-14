@@ -13,19 +13,7 @@ module SulStyles
     end
 
     def colors
-      @colors = []
-      @colors << parse_colors("#{SulStyles::Engine.root}/app/assets/stylesheet"\
-      's/sul-styles/su_primary_colors.scss')
-      @colors << parse_colors("#{SulStyles::Engine.root}/app/assets/stylesheet"\
-        's/sul-styles/su_web_colors.scss')
-    end
-
-    def parse_colors(file_name)
-      file = File.read(file_name)
-      {
-        title: file.match(/(?<=\/\*\n)(.*)(?=\*\/)/m).to_s,
-        colors: file.scan(/^\$.*;$/).map { |c| c.split(':') }
-      }
+      @colors = SULStyles::Colors.new.all
     end
 
     def parse_icons(file_name)
