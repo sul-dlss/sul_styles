@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'engine_cart', '~> 0.7.0'
   spec.add_development_dependency 'rspec-rails', '~> 3.0'
   spec.add_development_dependency 'capybara', '~> 2.4.4'
+  spec.add_development_dependency 'capistrano', '~> 3.4.0'
+  spec.add_development_dependency 'lyberteam-capistrano-devel'
 end
