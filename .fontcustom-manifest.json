@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "c37b74c087440059f94d930be466fb0cf544ccf69e2da98732a47d3fe372ee46",
-    "current": "c37b74c087440059f94d930be466fb0cf544ccf69e2da98732a47d3fe372ee46"
+    "previous": "b0cb80970630ddf1d2e8ea096b196e9a3f7eed526f96a5879df3febe6286526e",
+    "current": "b0cb80970630ddf1d2e8ea096b196e9a3f7eed526f96a5879df3febe6286526e"
   },
   "fonts": [
     "app/assets/fonts/sul-icons.ttf",
@@ -70,9 +70,45 @@
       "codepoint": 61717,
       "source": "icon_svgs/expand-1.svg"
     },
+    "file-acrobat": {
+      "codepoint": 61754,
+      "source": "icon_svgs/file-acrobat.svg"
+    },
+    "file-code-1": {
+      "codepoint": 61751,
+      "source": "icon_svgs/file-code-1.svg"
+    },
+    "file-excel": {
+      "codepoint": 61755,
+      "source": "icon_svgs/file-excel.svg"
+    },
     "file-music-1": {
       "codepoint": 61718,
       "source": "icon_svgs/file-music-1.svg"
+    },
+    "file-picture": {
+      "codepoint": 61750,
+      "source": "icon_svgs/file-picture.svg"
+    },
+    "file-powerpoint": {
+      "codepoint": 61757,
+      "source": "icon_svgs/file-powerpoint.svg"
+    },
+    "file-text-document": {
+      "codepoint": 61753,
+      "source": "icon_svgs/file-text-document.svg"
+    },
+    "file-video-3": {
+      "codepoint": 61752,
+      "source": "icon_svgs/file-video-3.svg"
+    },
+    "file-words": {
+      "codepoint": 61756,
+      "source": "icon_svgs/file-words.svg"
+    },
+    "file-zipped": {
+      "codepoint": 61748,
+      "source": "icon_svgs/file-zipped.svg"
     },
     "graph-bar-2": {
       "codepoint": 61719,
