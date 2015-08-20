@@ -27,5 +27,5 @@ task :build_dist do
   `bundle exec sass -C --sourcemap=none #{asset_dir + '/stylesheets/sul-icons/build.scss'} #{dist_dir + '/sul-icons.css'}`
 
   # Create a minified version of sul-icons.css
-  `bundle exec sass -C --sourcemap=none --style=compressed #{asset_dir + '/stylesheets/_sul-icons.scss'} #{dist_dir + '/sul-icons.min.css'}`
+  `bundle exec sass -C --sourcemap=none --style=compressed #{asset_dir + '/stylesheets/sul-icons/build.scss'} #{dist_dir + '/sul-icons.min.css'}`
 end
