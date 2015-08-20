@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "7dff601c2b1c74c7577c2eeab06429ba22255a3386f11893e85d9e80d8e5cffb",
-    "current": "7dff601c2b1c74c7577c2eeab06429ba22255a3386f11893e85d9e80d8e5cffb"
+    "previous": "2eef06684e6b75af8068db55c744364ef3f0273b6339408d3a355dcf3be32e50",
+    "current": "2eef06684e6b75af8068db55c744364ef3f0273b6339408d3a355dcf3be32e50"
   },
   "fonts": [
     "app/assets/fonts/sul-icons.ttf",
@@ -93,6 +93,10 @@
     "file-music-1": {
       "codepoint": 61718,
       "source": "icon_svgs/file-music-1.svg"
+    },
+    "file-new-1": {
+      "codepoint": 61760,
+      "source": "icon_svgs/file-new-1.svg"
     },
     "file-picture": {
       "codepoint": 61750,
