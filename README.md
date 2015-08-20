@@ -17,12 +17,14 @@ And then execute:
 Import the SUL Styles in your `app/assets/stylesheets/application.scss`.
 
 ```scss
-# Imports SUL SCSS Variables
+// Imports SUL SCSS Variables
 @import 'sul-styles';
 
-# Imports sul-icons
+// Imports sul-icons
 @import 'sul-icons-rails';
 @import 'sul-icons-aliases';
+// Helper classes used in icons
+@import 'sul-icons/helpers';
 ```
 
 Rather than importing the `sul-icons-rails` styles, it's recommended to use the hosted version of this style for caching purposes.

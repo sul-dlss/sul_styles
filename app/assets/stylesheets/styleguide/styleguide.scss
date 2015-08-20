@@ -5,6 +5,7 @@
 
 @import '../sul-icons-rails';
 @import '../sul-icons-aliases';
+@import '../sul-icons/helpers';
 
 @mixin flexcontainer {
   display: flex;
@@ -51,5 +52,4 @@ body {
 
 .icon-example {
   color: $color-black-80;
-  font-size: 40px;
 }
