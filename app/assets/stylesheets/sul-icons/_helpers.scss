@@ -1,0 +1,15 @@
+// Helper classes to be used alongside sul-icons
+
+// Icon Sizes
+// -------------------------
+
+/* makes the font 33% larger relative to the icon container */
+.sul-i-lg {
+  font-size: (4em / 3);
+  line-height: (3em / 4);
+  vertical-align: -15%;
+}
+.sul-i-2x { font-size: 2em; }
+.sul-i-3x { font-size: 3em; }
+.sul-i-4x { font-size: 4em; }
+.sul-i-5x { font-size: 5em; }

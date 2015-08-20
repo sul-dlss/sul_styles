@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "c37b74c087440059f94d930be466fb0cf544ccf69e2da98732a47d3fe372ee46",
-    "current": "c37b74c087440059f94d930be466fb0cf544ccf69e2da98732a47d3fe372ee46"
+    "previous": "7dff601c2b1c74c7577c2eeab06429ba22255a3386f11893e85d9e80d8e5cffb",
+    "current": "7dff601c2b1c74c7577c2eeab06429ba22255a3386f11893e85d9e80d8e5cffb"
   },
   "fonts": [
     "app/assets/fonts/sul-icons.ttf",
@@ -10,6 +10,10 @@
     "app/assets/fonts/sul-icons.eot"
   ],
   "glyphs": {
+    "arrow-down-8": {
+      "codepoint": 61758,
+      "source": "icon_svgs/arrow-down-8.svg"
+    },
     "arrow-left-3": {
       "codepoint": 61704,
       "source": "icon_svgs/arrow-left-3.svg"
@@ -25,6 +29,10 @@
     "arrow-right-8": {
       "codepoint": 61707,
       "source": "icon_svgs/arrow-right-8.svg"
+    },
+    "arrow-up-8": {
+      "codepoint": 61759,
+      "source": "icon_svgs/arrow-up-8.svg"
     },
     "book-open-4": {
       "codepoint": 61708,
@@ -70,9 +78,45 @@
       "codepoint": 61717,
       "source": "icon_svgs/expand-1.svg"
     },
+    "file-acrobat": {
+      "codepoint": 61754,
+      "source": "icon_svgs/file-acrobat.svg"
+    },
+    "file-code-1": {
+      "codepoint": 61751,
+      "source": "icon_svgs/file-code-1.svg"
+    },
+    "file-excel": {
+      "codepoint": 61755,
+      "source": "icon_svgs/file-excel.svg"
+    },
     "file-music-1": {
       "codepoint": 61718,
       "source": "icon_svgs/file-music-1.svg"
+    },
+    "file-picture": {
+      "codepoint": 61750,
+      "source": "icon_svgs/file-picture.svg"
+    },
+    "file-powerpoint": {
+      "codepoint": 61757,
+      "source": "icon_svgs/file-powerpoint.svg"
+    },
+    "file-text-document": {
+      "codepoint": 61753,
+      "source": "icon_svgs/file-text-document.svg"
+    },
+    "file-video-3": {
+      "codepoint": 61752,
+      "source": "icon_svgs/file-video-3.svg"
+    },
+    "file-words": {
+      "codepoint": 61756,
+      "source": "icon_svgs/file-words.svg"
+    },
+    "file-zipped": {
+      "codepoint": 61748,
+      "source": "icon_svgs/file-zipped.svg"
     },
     "graph-bar-2": {
       "codepoint": 61719,
