@@ -23,10 +23,12 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.sul-i-arrow-down-8:before,
 .sul-i-arrow-left-3:before,
 .sul-i-arrow-left-8:before,
 .sul-i-arrow-right-3:before,
 .sul-i-arrow-right-8:before,
+.sul-i-arrow-up-8:before,
 .sul-i-book-open-4:before,
 .sul-i-bookmark-all-1:before,
 .sul-i-books-library:before,
@@ -95,10 +97,12 @@
   font-smoothing: antialiased;
 }
 
+.sul-i-arrow-down-8:before { content: "\f13e"; }
 .sul-i-arrow-left-3:before { content: "\f108"; }
 .sul-i-arrow-left-8:before { content: "\f109"; }
 .sul-i-arrow-right-3:before { content: "\f10a"; }
 .sul-i-arrow-right-8:before { content: "\f10b"; }
+.sul-i-arrow-up-8:before { content: "\f13f"; }
 .sul-i-book-open-4:before { content: "\f10c"; }
 .sul-i-bookmark-all-1:before { content: "\f10d"; }
 .sul-i-books-library:before { content: "\f10e"; }
@@ -154,10 +158,12 @@
 .sul-i-window-search:before { content: "\f132"; }
 .sul-i-zoom-in:before { content: "\f133"; }
 
+$font-sul-icons-arrow-down-8: "\f13e";
 $font-sul-icons-arrow-left-3: "\f108";
 $font-sul-icons-arrow-left-8: "\f109";
 $font-sul-icons-arrow-right-3: "\f10a";
 $font-sul-icons-arrow-right-8: "\f10b";
+$font-sul-icons-arrow-up-8: "\f13f";
 $font-sul-icons-book-open-4: "\f10c";
 $font-sul-icons-bookmark-all-1: "\f10d";
 $font-sul-icons-books-library: "\f10e";

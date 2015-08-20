@@ -4,10 +4,12 @@ feature 'Icons' do
   scenario 'Icon defaults' do
     visit '/styleguide/icons'
     expect(page).to have_css 'h3', text: 'Icons'
+    expect(page).to have_css '.sul-i-arrow-down-8-char', text: 'f13e'
     expect(page).to have_css '.sul-i-arrow-left-3-char', text: 'f108'
     expect(page).to have_css '.sul-i-arrow-left-8-char', text: 'f109'
     expect(page).to have_css '.sul-i-arrow-right-3-char', text: 'f10a'
     expect(page).to have_css '.sul-i-arrow-right-8-char', text: 'f10b'
+    expect(page).to have_css '.sul-i-arrow-up-8-char', text: 'f13f'
     expect(page).to have_css '.sul-i-book-open-4-char', text: 'f10c'
     expect(page).to have_css '.sul-i-bookmark-all-1-char', text: 'f10d'
     expect(page).to have_css '.sul-i-books-library-char', text: 'f10e'

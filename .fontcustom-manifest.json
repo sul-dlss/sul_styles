@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "b0cb80970630ddf1d2e8ea096b196e9a3f7eed526f96a5879df3febe6286526e",
-    "current": "b0cb80970630ddf1d2e8ea096b196e9a3f7eed526f96a5879df3febe6286526e"
+    "previous": "7dff601c2b1c74c7577c2eeab06429ba22255a3386f11893e85d9e80d8e5cffb",
+    "current": "7dff601c2b1c74c7577c2eeab06429ba22255a3386f11893e85d9e80d8e5cffb"
   },
   "fonts": [
     "app/assets/fonts/sul-icons.ttf",
@@ -10,6 +10,10 @@
     "app/assets/fonts/sul-icons.eot"
   ],
   "glyphs": {
+    "arrow-down-8": {
+      "codepoint": 61758,
+      "source": "icon_svgs/arrow-down-8.svg"
+    },
     "arrow-left-3": {
       "codepoint": 61704,
       "source": "icon_svgs/arrow-left-3.svg"
@@ -25,6 +29,10 @@
     "arrow-right-8": {
       "codepoint": 61707,
       "source": "icon_svgs/arrow-right-8.svg"
+    },
+    "arrow-up-8": {
+      "codepoint": 61759,
+      "source": "icon_svgs/arrow-up-8.svg"
     },
     "book-open-4": {
       "codepoint": 61708,
