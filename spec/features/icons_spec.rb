@@ -24,6 +24,7 @@ feature 'Icons' do
     expect(page).to have_css '.sul-i-file-acrobat-char', text: 'f13a'
     expect(page).to have_css '.sul-i-file-code-1-char', text: 'f137'
     expect(page).to have_css '.sul-i-file-excel-char', text: 'f13b'
+    expect(page).to have_css '.sul-i-file-new-1-char', text: 'f140'
     expect(page).to have_css '.sul-i-file-music-1-char', text: 'f116'
     expect(page).to have_css '.sul-i-file-picture-char', text: 'f136'
     expect(page).to have_css '.sul-i-file-powerpoint-char', text: 'f13d'
