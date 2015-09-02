@@ -35,7 +35,9 @@
 .sul-i-box-1:before,
 .sul-i-bubble-chat-2:before,
 .sul-i-camera-film-1:before,
+.sul-i-check-2:before,
 .sul-i-check-box-1:before,
+.sul-i-close:before,
 .sul-i-cube:before,
 .sul-i-download-3:before,
 .sul-i-email:before,
@@ -58,6 +60,7 @@
 .sul-i-layout-none:before,
 .sul-i-link-3:before,
 .sul-i-list-bullets-1:before,
+.sul-i-location-pin-2:before,
 .sul-i-map-pin-1:before,
 .sul-i-microphone-3:before,
 .sul-i-mobile-phone-2:before,
@@ -65,6 +68,8 @@
 .sul-i-navigation-drawer-1:before,
 .sul-i-navigation-drawer-2:before,
 .sul-i-navigation-left-2:before,
+.sul-i-navigation-next-4:before,
+.sul-i-navigation-show-more-1:before,
 .sul-i-network-web:before,
 .sul-i-news-article:before,
 .sul-i-newspaper:before,
@@ -75,9 +80,11 @@
 .sul-i-plug-1:before,
 .sul-i-print-text:before,
 .sul-i-quote-1:before,
+.sul-i-remove-2:before,
 .sul-i-search:before,
 .sul-i-share:before,
 .sul-i-transfer-3:before,
+.sul-i-truck-1:before,
 .sul-i-turntable:before,
 .sul-i-view-headline:before,
 .sul-i-view-list:before,
@@ -110,7 +117,9 @@
 .sul-i-box-1:before { content: "\f10f"; }
 .sul-i-bubble-chat-2:before { content: "\f110"; }
 .sul-i-camera-film-1:before { content: "\f111"; }
+.sul-i-check-2:before { content: "\f143"; }
 .sul-i-check-box-1:before { content: "\f112"; }
+.sul-i-close:before { content: "\f141"; }
 .sul-i-cube:before { content: "\f113"; }
 .sul-i-download-3:before { content: "\f106"; }
 .sul-i-email:before { content: "\f114"; }
@@ -133,6 +142,7 @@
 .sul-i-layout-none:before { content: "\f11a"; }
 .sul-i-link-3:before { content: "\f107"; }
 .sul-i-list-bullets-1:before { content: "\f11b"; }
+.sul-i-location-pin-2:before { content: "\f147"; }
 .sul-i-map-pin-1:before { content: "\f11c"; }
 .sul-i-microphone-3:before { content: "\f11d"; }
 .sul-i-mobile-phone-2:before { content: "\f11e"; }
@@ -140,6 +150,8 @@
 .sul-i-navigation-drawer-1:before { content: "\f120"; }
 .sul-i-navigation-drawer-2:before { content: "\f121"; }
 .sul-i-navigation-left-2:before { content: "\f122"; }
+.sul-i-navigation-next-4:before { content: "\f142"; }
+.sul-i-navigation-show-more-1:before { content: "\f146"; }
 .sul-i-network-web:before { content: "\f123"; }
 .sul-i-news-article:before { content: "\f124"; }
 .sul-i-newspaper:before { content: "\f125"; }
@@ -150,9 +162,11 @@
 .sul-i-plug-1:before { content: "\f12a"; }
 .sul-i-print-text:before { content: "\f12b"; }
 .sul-i-quote-1:before { content: "\f12c"; }
+.sul-i-remove-2:before { content: "\f144"; }
 .sul-i-search:before { content: "\f12d"; }
 .sul-i-share:before { content: "\f105"; }
 .sul-i-transfer-3:before { content: "\f12e"; }
+.sul-i-truck-1:before { content: "\f145"; }
 .sul-i-turntable:before { content: "\f12f"; }
 .sul-i-view-headline:before { content: "\f130"; }
 .sul-i-view-list:before { content: "\f131"; }
@@ -172,7 +186,9 @@ $font-sul-icons-books-library: "\f10e";
 $font-sul-icons-box-1: "\f10f";
 $font-sul-icons-bubble-chat-2: "\f110";
 $font-sul-icons-camera-film-1: "\f111";
+$font-sul-icons-check-2: "\f143";
 $font-sul-icons-check-box-1: "\f112";
+$font-sul-icons-close: "\f141";
 $font-sul-icons-cube: "\f113";
 $font-sul-icons-download-3: "\f106";
 $font-sul-icons-email: "\f114";
@@ -195,6 +211,7 @@ $font-sul-icons-layout-4: "\f119";
 $font-sul-icons-layout-none: "\f11a";
 $font-sul-icons-link-3: "\f107";
 $font-sul-icons-list-bullets-1: "\f11b";
+$font-sul-icons-location-pin-2: "\f147";
 $font-sul-icons-map-pin-1: "\f11c";
 $font-sul-icons-microphone-3: "\f11d";
 $font-sul-icons-mobile-phone-2: "\f11e";
@@ -202,6 +219,8 @@ $font-sul-icons-mouse: "\f11f";
 $font-sul-icons-navigation-drawer-1: "\f120";
 $font-sul-icons-navigation-drawer-2: "\f121";
 $font-sul-icons-navigation-left-2: "\f122";
+$font-sul-icons-navigation-next-4: "\f142";
+$font-sul-icons-navigation-show-more-1: "\f146";
 $font-sul-icons-network-web: "\f123";
 $font-sul-icons-news-article: "\f124";
 $font-sul-icons-newspaper: "\f125";
@@ -212,9 +231,11 @@ $font-sul-icons-picture-2: "\f129";
 $font-sul-icons-plug-1: "\f12a";
 $font-sul-icons-print-text: "\f12b";
 $font-sul-icons-quote-1: "\f12c";
+$font-sul-icons-remove-2: "\f144";
 $font-sul-icons-search: "\f12d";
 $font-sul-icons-share: "\f105";
 $font-sul-icons-transfer-3: "\f12e";
+$font-sul-icons-truck-1: "\f145";
 $font-sul-icons-turntable: "\f12f";
 $font-sul-icons-view-headline: "\f130";
 $font-sul-icons-view-list: "\f131";

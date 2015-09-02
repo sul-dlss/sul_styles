@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "2eef06684e6b75af8068db55c744364ef3f0273b6339408d3a355dcf3be32e50",
-    "current": "2eef06684e6b75af8068db55c744364ef3f0273b6339408d3a355dcf3be32e50"
+    "previous": "2151817038e941b1ee8b48706edb2510938e8c9cb5892c5bbef5fc4d1d853bde",
+    "current": "2151817038e941b1ee8b48706edb2510938e8c9cb5892c5bbef5fc4d1d853bde"
   },
   "fonts": [
     "app/assets/fonts/sul-icons.ttf",
@@ -58,9 +58,17 @@
       "codepoint": 61713,
       "source": "icon_svgs/camera-film-1.svg"
     },
+    "check-2": {
+      "codepoint": 61763,
+      "source": "icon_svgs/check-2.svg"
+    },
     "check-box-1": {
       "codepoint": 61714,
       "source": "icon_svgs/check-box-1.svg"
+    },
+    "close": {
+      "codepoint": 61761,
+      "source": "icon_svgs/close.svg"
     },
     "cube": {
       "codepoint": 61715,
@@ -150,6 +158,10 @@
       "codepoint": 61723,
       "source": "icon_svgs/list-bullets-1.svg"
     },
+    "location-pin-2": {
+      "codepoint": 61767,
+      "source": "icon_svgs/location-pin-2.svg"
+    },
     "map-pin-1": {
       "codepoint": 61724,
       "source": "icon_svgs/map-pin-1.svg"
@@ -177,6 +189,14 @@
     "navigation-left-2": {
       "codepoint": 61730,
       "source": "icon_svgs/navigation-left-2.svg"
+    },
+    "navigation-next-4": {
+      "codepoint": 61762,
+      "source": "icon_svgs/navigation-next-4.svg"
+    },
+    "navigation-show-more-1": {
+      "codepoint": 61766,
+      "source": "icon_svgs/navigation-show-more-1.svg"
     },
     "network-web": {
       "codepoint": 61731,
@@ -218,6 +238,10 @@
       "codepoint": 61740,
       "source": "icon_svgs/quote-1.svg"
     },
+    "remove-2": {
+      "codepoint": 61764,
+      "source": "icon_svgs/remove-2.svg"
+    },
     "search": {
       "codepoint": 61741,
       "source": "icon_svgs/search.svg"
@@ -229,6 +253,10 @@
     "transfer-3": {
       "codepoint": 61742,
       "source": "icon_svgs/transfer-3.svg"
+    },
+    "truck-1": {
+      "codepoint": 61765,
+      "source": "icon_svgs/truck-1.svg"
     },
     "turntable": {
       "codepoint": 61743,
