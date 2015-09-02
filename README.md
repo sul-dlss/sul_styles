@@ -32,9 +32,9 @@ Rather than importing the `sul-icons-rails` styles, it's recommended to use the 
 ```html
 <html>
   <head>
-    <link rel="stylesheet" href="https://sul-cdn.stanford.edu/sul_styles/0.3.0/sul-icons.min.css">
+    <link rel="stylesheet" href="https://sul-cdn.stanford.edu/sul_styles/0.5.0/sul-icons.min.css">
     <!-- or
-    <link rel="stylesheet" href="https://sul-cdn.stanford.edu/sul_styles/0.3.0/sul-icons.css">
+    <link rel="stylesheet" href="https://sul-cdn.stanford.edu/sul_styles/0.5.0/sul-icons.css">
     -->
     ...
 ```
