@@ -1,6 +1,7 @@
 <h2>Colors</h2>
 <% @colors.each do |color_group| %>
-  <h3><%= color_group.title %></h3>
+  <% color_title = color_group.title.split(" from ") %>
+  <h3><%= link_to color_title[0], color_title[1] %></h3>
   <div class='color-sample-container'>
     <% color_group.colors.each do |color| %>
       <div class='color-sample'>
