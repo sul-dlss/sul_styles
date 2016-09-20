@@ -18,11 +18,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.required_ruby_version = '>= 2.1'
 
-  spec.add_dependency 'rails', '~> 4.1'
+  spec.add_dependency 'rails', '>= 4.1', '< 6'
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency 'engine_cart', '~> 0.7.0'
+  spec.add_development_dependency 'engine_cart', '~> 1.0'
   spec.add_development_dependency 'rspec-rails', '~> 3.0'
   spec.add_development_dependency 'capybara', '~> 2.4.4'
   spec.add_development_dependency 'capistrano', '~> 3.4.0'

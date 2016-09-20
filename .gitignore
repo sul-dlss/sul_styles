@@ -9,3 +9,5 @@
 /tmp/
 /icon_svgs/*.svg
 /spec/internal
+
+.internal_test_app
