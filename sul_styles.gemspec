@@ -21,10 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rails', '>= 4.1', '< 6'
 
   spec.add_development_dependency "bundler", "~> 1.10"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake"
   spec.add_development_dependency 'engine_cart', '~> 1.0'
   spec.add_development_dependency 'rspec-rails', '~> 3.0'
-  spec.add_development_dependency 'capybara', '~> 2.4.4'
-  spec.add_development_dependency 'capistrano', '~> 3.4.0'
-  spec.add_development_dependency 'lyberteam-capistrano-devel'
+  spec.add_development_dependency 'capybara', '~> 2.4'
 end

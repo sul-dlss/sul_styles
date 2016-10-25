@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in sul_styles.gemspec
 gemspec
 
+gem 'dlss-capistrano', require: false
+
 # BEGIN ENGINE_CART BLOCK
 # engine_cart: 1.0.1
 # engine_cart stanza: 0.10.0
