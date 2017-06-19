@@ -3,6 +3,7 @@ require 'capistrano/setup'
 
 # Include default deployment tasks
 require 'capistrano/deploy'
+require 'capistrano/bundler'
 require 'dlss/capistrano'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
