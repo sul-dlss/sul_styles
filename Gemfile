@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'dlss-capistrano', require: false
+gem 'capistrano-bundler'
 
 # BEGIN ENGINE_CART BLOCK
 # engine_cart: 1.0.1
