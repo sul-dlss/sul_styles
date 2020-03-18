@@ -16,13 +16,13 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  spec.required_ruby_version = '>= 2.1'
+  spec.required_ruby_version = '>= 2.3'
 
   spec.add_dependency 'rails', '>= 4.1', '< 7'
 
-  spec.add_development_dependency "bundler", "~> 1.10"
+  spec.add_development_dependency "bundler", "~> 2"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency 'engine_cart', '~> 1.0'
+  spec.add_development_dependency 'engine_cart', '~> 2.0'
   spec.add_development_dependency 'rspec-rails', '~> 3.0'
-  spec.add_development_dependency 'capybara', '~> 2.4'
+  spec.add_development_dependency 'capybara', '~> 3.31'
 end
