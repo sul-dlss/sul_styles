@@ -1,7 +1,7 @@
 @import 'identity/digital-color';
 
 $cardinal-red: $su-cardinal-red;
-$gray: $warm-gray;
+$gray: $su-warm-gray;
 $gray-41-percent: #696969;
 $gray-46-percent: #767676;
 $gray-60-percent: #8a887d;
@@ -14,10 +14,11 @@ $beige-30-percent: #e3dfd5;
 $beige-40-percent: #d5d0c0;
 $beige-5-percent: #fbfbf9;
 $gray-brown: #81785a;
-$pantone-405: $clay;
-$pantone-334: $mint;
-$pantone-2925: $sky;
+$pantone-405: $su-clay;
+$pantone-334: $su-mint;
+$pantone-2925: $su-sky;
 
 $sul-footer-bg-color: $beige-10-percent !default;
+$sul-shadow-color: rgba(0, 0, 0, .2);
 
-$topnav-link-border-color: $red;
+$topnav-link-border-color: $cardinal-red;

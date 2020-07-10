@@ -1,22 +1,15 @@
 /*
   Styles for SulStyles Styleguide
 */
-@import '../sul-styles';
-
+@import '../sul-styles/su_web_colors';
 @import '../sul-icons-rails';
 @import '../sul-icons-aliases';
 @import '../sul-icons/helpers';
+@import './bootstrap-swatches';
 
 @mixin flexcontainer {
   display: flex;
-  flex-flow: row wrap;  
-}
-
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 20px;
+  flex-flow: row wrap;
 }
 
 .color-sample-container {

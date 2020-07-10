@@ -1,0 +1,11 @@
+<header id="topnav" role="banner">
+  <div class="container d-flex">
+    <%= link_to 'https://library.stanford.edu', class: 'navbar-brand' do %>
+      <%= image_tag "sul-logo.svg", class: "su-logo d-none d-sm-block", alt: "Stanford Libraries", height: 25 %>
+      <%= image_tag "sul-logo-stacked.svg", class: "su-logo d-sm-none d-md-none d-lg-none d-xl-none", alt: "Stanford Libraries", height: 25 %>
+    <% end %>
+
+    <%= yield %>
+  </div>
+</header>
+<%= render 'feedback_forms/container' %>

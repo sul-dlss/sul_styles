@@ -36,7 +36,11 @@ module SULStyles
     private
 
     def color_files
-      [primary_colors_file, web_colors_file]
+      [identity_colors_file, primary_colors_file, web_colors_file]
+    end
+
+    def identity_colors_file
+      "#{stylesheets_directory}/identity/digital-color.scss"
     end
 
     def primary_colors_file

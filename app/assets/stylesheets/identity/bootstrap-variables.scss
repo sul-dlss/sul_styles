@@ -1,6 +1,6 @@
 @import 'identity/digital-color';
 
-$blue:    $su-light-blue !default;
+$blue:    $su-bright-blue !default;
 // $indigo:  #6610f2 !default;
 $purple:  $su-purple !default;
 // $pink:    #e83e8c !default;
@@ -30,8 +30,13 @@ $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
   (
-    "cardinal-red": $cardinal-red,
+    "cardinal-red": $su-cardinal-red,
     "beige": $su-light-sandstone
   ),
   $theme-colors
 );
+
+// Jumbotron
+$jumbotron-bg: $su-light-sandstone;
+
+$breadcrumb-bg: transparent;
