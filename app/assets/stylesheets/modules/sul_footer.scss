@@ -3,6 +3,9 @@
 $stanford-footer-height: 250px;
 $stanford-footer-md-height: 140px;
 $sul-footer-height: 80px;
+$sul-footer-bg-color: #f2f1eb !default;
+$sul-footer-shadow-color: rgba(0, 0, 0, 0.2) !default;
+$sul-footer-shadow: 0 4px 8px -8px $sul-footer-shadow-color inset !default;
 
 #su-content {
   height: 100%;
@@ -15,7 +18,7 @@ $sul-footer-height: 80px;
 
 #sul-footer-container {
   background-color: $sul-footer-bg-color;
-  box-shadow: inset 0 4px 8px -8px $sul-shadow-color;
+  box-shadow: $sul-footer-shadow;
   clear: both;
   margin-top: -1 * ($stanford-footer-height + $sul-footer-height);
   min-height: $stanford-footer-height + $sul-footer-height;
