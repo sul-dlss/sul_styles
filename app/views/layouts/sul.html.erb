@@ -14,8 +14,8 @@
   <%# javascript_pack_tag 'application' %>
   <%= content_for(:head) %>
 </head>
-<body class="<%= try(:render_body_class) %>">
-  <%= render 'shared/body_top' %>
+<%= content_tag :body, class: try(:render_body_class), **(try(:body_tag_attributes) || {}) do %>
+  <%= content_for(:body_top) %>
   <div id="skip-link">
     <%= render 'shared/skip_links' %>
   </div>
@@ -37,6 +37,6 @@
     <%= render 'shared/sul_footer' %>
     <%= render 'shared/global_footer' %>
   </footer>
-  <%= render 'shared/body_bottom' %>
-</body>
+  <%= content_for(:body_bottom) %>
+<% end %>
 <% end %>
