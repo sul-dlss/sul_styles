@@ -1,3 +1,5 @@
+$sul-skip-to-nav-bg: $su-fog !default;
+
 // scss-lint:disable IdSelector, ImportantRule, VendorPrefix
 #skip-link {
   margin-left: 10px;
@@ -7,8 +9,6 @@
   z-index: 1;
 
   .skip-link {
-    @extend .element-invisible;
-    @extend .element-focusable;
     background-color: $sul-skip-to-nav-bg;
     -moz-border-radius: 0 0 6px 6px;
     -webkit-border-radius: 0 0 6px 6px;
