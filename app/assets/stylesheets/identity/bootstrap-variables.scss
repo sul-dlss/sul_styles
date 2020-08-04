@@ -37,11 +37,14 @@ $theme-colors: map-merge(
 );
 
 // Jumbotron
-$jumbotron-bg: $su-light-sandstone;
+$jumbotron-bg: $su-light-sandstone !default;
 
-$breadcrumb-bg: transparent;
+$breadcrumb-bg: transparent !default;
 
 // Tables
-$table-dark-bg: $su-driftwood;
-$table-dark-color: $su-chocolate;
-$table-dark-accent-bg: $su-cloud;
+$table-dark-bg: $su-driftwood !default;
+$table-dark-color: $su-chocolate !default;
+$table-dark-accent-bg: $su-cloud !default;
+$table-accent-bg: $su-light-sandstone !default;
+
+$tooltip-bg: $su-lagunita !default;
