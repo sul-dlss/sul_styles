@@ -1,0 +1,9 @@
+<%= render 'layouts/top_navbar' do %>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <%= link_to try(:feedback_path) || sul_styles_engine.feedback_path, data: { toggle: 'collapse', target: '#feedback-form' }, class: 'nav-link' do %>
+        Feedback
+      <% end %>
+    </li>
+  </ul>
+<% end %>

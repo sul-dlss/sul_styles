@@ -1,0 +1,54 @@
+$topnav-link-border-color: $red !default;
+
+#topnav {
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .nav-link {
+    &:hover,&:focus {
+      border-bottom: 3px solid $topnav-link-border-color;
+    }
+
+    // Add the border on hover, or when the #feedback-form is open
+    &[data-target="#feedback-form"][aria-expanded="true"] {
+      border-bottom: 3px solid $topnav-link-border-color;
+    }
+
+    border-bottom: 3px solid transparent;
+    color: $red;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  padding: 3px 0;
+}
+
+#header-navbar {
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .nav-link {
+    border-bottom: 3px solid transparent;
+    color: $white;
+    margin-left: $spacer;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 3px solid $white;
+    }
+
+    svg {
+      fill: $white;
+      stroke: $white;
+    }
+  }
+
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, .2);
+}

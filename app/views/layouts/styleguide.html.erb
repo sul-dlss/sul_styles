@@ -1,22 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
+<% content_for(:head) do %>
   <title>Stanford University Libraries - Style Guide</title>
   <%= stylesheet_link_tag 'styleguide', media: 'all', 'data-turbolinks-track' => true %>
-</head>
-<body>
-<h1>Stanford University Libraries - Style Guide</h1>
-<div class='navigation'>
-  <ul>
-    <li>
-      <%= link_to 'Colors', colors_path %>
-    </li>
-    <li>
-      <%= link_to 'Icons', icons_path %>
-    </li>
-  </ul>
-</div>
-<%= yield %>
+<% end %>
 
-</body>
-</html>
+<% content_for(:content) do %>
+ <h1>Stanford University Libraries - Style Guide</h1>
+ <div class='navigation'>
+   <ul>
+     <li>
+       <%= link_to 'Colors', sul_styles_engine.style_guide_colors_path %>
+     </li>
+     <li>
+       <%= link_to 'Icons', sul_styles_engine.style_guide_icons_path %>
+     </li>
+   </ul>
+ </div>
+
+ <%= yield %>
+<% end %>
+
+<%= render template: "layouts/sul" %>
