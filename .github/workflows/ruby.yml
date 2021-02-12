@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rails_version: [5.2.4.4, 6.1.1]
+        ruby: ['2.7', '3.0']
+        exclude:
+          - rails_version: 5.2.4.4
+            ruby: '3.0'
+    env:
+      RAILS_VERSION: ${{ matrix.rails_version }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby }}
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-${{ matrix.ruby }}-${{ matrix.rails_version }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-${{ matrix.ruby }}-${{ matrix.rails_version }}-gems-
+    - name: Bundle install
+      run: bundle install
+    - name: Run tests
+      run: bundle exec rake
